@@ -1,9 +1,3 @@
-# install firstly color schemes from here: https://github.com/alacritty/alacritty-theme?tab=readme-ov-file
-
-import = [
-    "~/.config/alacritty/themes/themes/github_dark_default.toml"
-    # "~/.config/alacritty/themes/themes/ayu_dark.toml"
-]
 
 [env]
 TERM = "xterm-256color"
@@ -64,3 +58,11 @@ opacity = 0.85
 [window.padding]
 x = 10
 y = 15
+
+[general]
+# install firstly color schemes from here: https://github.com/alacritty/alacritty-theme?tab=readme-ov-file
+
+import = [
+    # "~/.config/alacritty/themes/themes/github_dark_default.toml",
+    "~/.config/alacritty/themes/themes/ayu_dark.toml",
+]
